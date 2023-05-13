@@ -1,9 +1,9 @@
-#LeetCode Solutions
+# LeetCode Solutions
 <pr>*Hey everyone! 👋*<br>
 
 <pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them.<br>
 
-<pr>##Categories<br>
+<pr> ##Categories<br>
 <pr>The solutions are categorized into the following sections:<br>
 
 <pr>**Easy**<br>
@@ -12,7 +12,7 @@
 
 <pr>**Hard**<br>
 
-<pr>##Contributing<br>
+<pr> ##Contributing<br>
 <pr>If you'd like to contribute to this repository, you can:<br>
 
 <pr>1. Add more solutions to existing problem categories.<br>
@@ -28,8 +28,8 @@
 <pr>5. Submit a pull request, describing the changes you've made.<br>
 <pr>Your contributions are greatly appreciated!<br>
 
-<pr>##License<br>
+<pr> ##License<br>
 <pr>This repository is licensed under the MIT License.<br>
 
-<pr>##Get in Touch<br>
+<pr> ##Get in Touch<br>
 <pr>If you have any questions or suggestions, feel free to reach out. Happy coding! 😊<br>
