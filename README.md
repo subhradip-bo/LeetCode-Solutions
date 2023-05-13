@@ -31,5 +31,5 @@
 <pr> <h2> License </h2> <br>
 <pr>This repository is licensed under the MIT License.<br>
 
-<pr> <h2> Get In Touch </h2> <br>
+<pr> <h2> Get In Touch ‼️ </h2> <br>
 <pr>If you have any questions or suggestions, feel free to reach out. Happy coding! 😊<br>
