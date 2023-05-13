@@ -1,7 +1,7 @@
 # LeetCode Solutions
 <pr>*Hey everyone! 👋*<br>
 
-<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them.<br>
+<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them. I will be updating this everyday, if possible !<br>
 
 <pr> <h2> Categories </h2> <br>
 <pr>The solutions are categorized into the following sections:<br>
