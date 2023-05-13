@@ -12,7 +12,7 @@
 
 <pr>**Hard**<br>
 
-<pr>## Contributing <br>
+<pr> <h2> Contributing </h2> <br>
 <pr>If you'd like to contribute to this repository, you can:<br>
 
 <pr>1. Add more solutions to existing problem categories.<br>
@@ -28,8 +28,8 @@
 <pr>5. Submit a pull request, describing the changes you've made.<br>
 <pr>Your contributions are greatly appreciated!<br>
 
-<pr>## License <br>
+<pr> <h2> License </h2> <br>
 <pr>This repository is licensed under the MIT License.<br>
 
-<pr>## Get in Touch <br>
+<pr> <h2> Get In Touch </h2> <br>
 <pr>If you have any questions or suggestions, feel free to reach out. Happy coding! 😊<br>
