@@ -1,70 +1,35 @@
-# Car Price Predictor
+# LeetCode Solutions
+<pr>*Hey everyone! 👋*<br>
 
-Car Price Predictor is a machine learning project that aims to predict the price of used cars based on various features. It utilizes a dataset containing information about different cars, such as their make, model, year of manufacture, mileage, fuel type, and more.
+<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them. I will be updating this everyday, if possible !<br>
 
-## Table of Contents
+<pr> <h2> Categories </h2> <br>
+<pr>The solutions are categorized into the following sections:<br>
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+<pr>**Easy**<br>
 
-## Introduction
+<pr>**Medium**<br>
 
-Predicting the price of used cars can be useful for both buyers and sellers. By analyzing the characteristics of a car, such as its age, mileage, and brand, we can estimate its market value. This project utilizes machine learning techniques to develop a model that predicts car prices based on the provided dataset.
+<pr>**Hard**<br>
 
-## Dataset
+<pr> <h2> Contributing </h2> <br>
+<pr>If you'd like to contribute to this repository, you can:<br>
 
-The dataset used for this project is located in the [data](data/) directory. It contains information about various cars, such as their make, model, year of manufacture, mileage, fuel type, and more. The dataset is in CSV format and named `car_data.csv`.
+<pr>1. Add more solutions to existing problem categories.<br>
+<pr>2. Improve existing solutions by optimizing time and space complexity.<br>
+<pr>3. Provide alternative solutions or variations of existing problems.<br>
+  
+<pr>To contribute, follow these steps:<br>
 
-## Installation
+<pr>1. Fork the repository.<br>
+<pr>2. Create a new branch for your contribution.<br>
+<pr>3. Make your changes and commit them.<br>
+<pr>4. Push the changes to your fork.<br>
+<pr>5. Submit a pull request, describing the changes you've made.<br>
+<pr>Your contributions are greatly appreciated!<br>
 
-To run this project locally, follow these steps:
+<pr> <h2> License </h2> <br>
+<pr>This repository is licensed under the MIT License.<br>
 
-1. Clone the repository:
-
-git clone https://github.com/subhradip-bo/Python-project-Scripts.git
-
-2. Navigate to the project directory:
-
-cd Python-project-Scripts/MachineLearning\ Projects/Car\ Price\ Predictor/
-
-3. Install the required dependencies:
-
-pip install -r requirements.txt
-
-## Usage
-
-Once you have installed the necessary dependencies, you can use the project as follows:
-
-1. Make sure you are in the project directory:
-
-cd Python-project-Scripts/MachineLearning\ Projects/Car\ Price\ Predictor/
-
-2. Run the main Python script:
-
-python car_price_predictor.py
-
-3. The program will prompt you to enter the details of the car for which you want to predict the price. Provide the required information and press Enter.
-
-4. The program will display the predicted price of the car based on the trained machine learning model.
-
-## Model Training
-
-The machine learning model used in this project is trained using the `car_data.csv` dataset. The model training code can be found in the `car_price_predictor.py` script. It follows the standard steps of a typical machine learning workflow, including data preprocessing, feature engineering, model selection, and evaluation.
-
-## Results
-
-The accuracy and performance of the trained model may vary depending on the dataset and the specific machine learning algorithms used. It is important to note that the predictions provided by this model are estimates and should be used as a reference rather than absolute values.
-
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or want to enhance the functionality, feel free to open a pull request with your changes. Please ensure to follow the project's code of conduct.
-
-## License
-
-The code in this project is available under the [MIT License](LICENSE). Feel free to use and modify it as per your needs.
+<pr> <h2> Get In Touch ‼️ </h2> <br>
+<pr>If you have any questions or suggestions, feel free to reach out on subhradipbodhak1493@gmail.com. And Happy coding! 😊<br>
