@@ -1,35 +1,27 @@
-# LeetCode Solutions
-<pr>*Hey everyone! 👋*<br>
+<h1 align="center">Plagiarism Checker</h1>
 
-<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them. I will be updating this everyday, if possible !<br>
+## Introduction <br>
+- Plagiarism checking/detection is the identification of similarities between texts and establishing if one text is derived from another, and it may be used to spot situations of academic dishonesty or unauthorised copying. 
+- This code analyses the textual data and looks for possible instances of plagiarism using TF-IDF (Term Frequency-Inverse Document Frequency) vectorization and cosine similarity.
 
-<pr> <h2> Categories </h2> <br>
-<pr>The solutions are categorized into the following sections:<br>
+## Prerequisites <br>
+- Install scikit-learn by: '**$ pip install scikit-learn**'
 
-<pr>**Easy**<br>
+## How it works <br>
+1. The paths to text files that are located in the same directory as the code file are loaded at the beginning of the code. It recognises and records the paths of all files with the **.txt** extension in the **student_files** list.
+2. Next, the code reads the contents of each text file and stores them in the **student_notes** list.
+3. **The TfidfVectorizer** class from scikit-learn is used by the **vectorize** function to perform TF-IDF vectorization on a list of text documents. The relative relevance of each term in a document in relation to the corpus of texts is captured by the TF-IDF, a numerical representation of textual data. The function returns arrays of numbers that represent the documents' TF-IDF vectors.
+4. The **similarity** function computes the cosine similarity between two document vectors. Cosine similarity measures the cosine of the angle between two vectors and is commonly used to compare the similarity of documents represented as vectors. The function returns the similarity score between the two input vectors.
+5. The code with the help of the **vectorize** function vectorizes the textual data, converting it to numerical arrays using TF-IDF representation.
+6. The vectorized data is then paired with their corresponding student files and stored in the **s_vectors** list.
+7. The **check_plagiarism** function compares the vectorized documents of each pair of students using cosine similarity. It iterates through each student's vector and compares it with the vectors of all other students. For each pair of students, it computes the similarity score using the **similarity** function and stores the student pair and their similarity score in the **plagiarism_results** set.
+8. And at last the code loops through the **plagiarism_results** set and prints the student pairings along with their similarity ratings.
 
-<pr>**Medium**<br>
+## Running the app <br>
+- There are four text documents in the repository. 
+- Basically the code will compare all the .txt files and check for any similarity.
 
-<pr>**Hard**<br>
+$ python plagiarism.py
 
-<pr> <h2> Contributing </h2> <br>
-<pr>If you'd like to contribute to this repository, you can:<br>
-
-<pr>1. Add more solutions to existing problem categories.<br>
-<pr>2. Improve existing solutions by optimizing time and space complexity.<br>
-<pr>3. Provide alternative solutions or variations of existing problems.<br>
-  
-<pr>To contribute, follow these steps:<br>
-
-<pr>1. Fork the repository.<br>
-<pr>2. Create a new branch for your contribution.<br>
-<pr>3. Make your changes and commit them.<br>
-<pr>4. Push the changes to your fork.<br>
-<pr>5. Submit a pull request, describing the changes you've made.<br>
-<pr>Your contributions are greatly appreciated!<br>
-
-<pr> <h2> License </h2> <br>
-<pr>This repository is licensed under the MIT License.<br>
-
-<pr> <h2> Get In Touch ‼️ </h2> <br>
-<pr>If you have any questions or suggestions, feel free to reach out on subhradipbodhak1493@gmail.com. And Happy coding! 😊<br>
+## Screenshots
+<img src="https://raw.githubusercontent.com/Anupreetadas/plagiarism_checker/main/assets/Capture1.PNG" width="100%" height="100%" align="left" >
