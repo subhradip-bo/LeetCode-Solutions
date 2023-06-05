@@ -1,35 +1,27 @@
-# LeetCode Solutions
-<pr>*Hey everyone! 👋*<br>
+# Weather app
 
-<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them. I will be updating this everyday, if possible !<br>
+This is a simple application that allows you to check the temperature of a city using web scraping from Google search results.
 
-<pr> <h2> Categories </h2> <br>
-<pr>The solutions are categorized into the following sections:<br>
+## Prerequisites
 
-<pr>**Easy**<br>
+- Python 3.x
+- Requests library (`pip install requests`)
+- BeautifulSoup library (`pip install beautifulsoup4`)
+- Tkinter library (usually included with Python)
 
-<pr>**Medium**<br>
+## Usage
 
-<pr>**Hard**<br>
+1. Run the `weatherapp.py` script.
+2. Enter the name of the city for which you want to check the temperature.
+3. Click the "Get Temperature" button.
+4. The temperature will be displayed below the button.
 
-<pr> <h2> Contributing </h2> <br>
-<pr>If you'd like to contribute to this repository, you can:<br>
+## How it works?
 
-<pr>1. Add more solutions to existing problem categories.<br>
-<pr>2. Improve existing solutions by optimizing time and space complexity.<br>
-<pr>3. Provide alternative solutions or variations of existing problems.<br>
-  
-<pr>To contribute, follow these steps:<br>
+- The application fetches the temperature information by performing a Google search for "weather in <city>". It then extracts the temperature details from the search results using web scraping techniques.
+- The temperature displayed might vary depending on the structure and layout of Google's search results page.
+- This application is for educational and demonstration purposes only and is not intended for commercial or production use.
 
-<pr>1. Fork the repository.<br>
-<pr>2. Create a new branch for your contribution.<br>
-<pr>3. Make your changes and commit them.<br>
-<pr>4. Push the changes to your fork.<br>
-<pr>5. Submit a pull request, describing the changes you've made.<br>
-<pr>Your contributions are greatly appreciated!<br>
+## License
 
-<pr> <h2> License </h2> <br>
-<pr>This repository is licensed under the MIT License.<br>
-
-<pr> <h2> Get In Touch ‼️ </h2> <br>
-<pr>If you have any questions or suggestions, feel free to reach out on subhradipbodhak1493@gmail.com. And Happy coding! 😊<br>
+This project is licensed under the [MIT License](LICENSE).
