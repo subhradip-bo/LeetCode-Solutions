@@ -18,7 +18,8 @@
 <pr>1. Add more solutions to existing problem categories.<br>
 <pr>2. Improve existing solutions by optimizing time and space complexity.<br>
 <pr>3. Provide alternative solutions or variations of existing problems.<br>
-  
+ 
+<pr> <h2> Steps to contribute </h2> <br>
 <pr>To contribute, follow these steps:<br>
 
 <pr>1. Fork the repository.<br>
