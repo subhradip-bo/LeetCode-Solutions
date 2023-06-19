@@ -1,42 +1,36 @@
-# Snake Game (GUI)
+# LeetCode Solutions
+<pr>*Hey everyone! 👋*<br>
 
- Snake game is an Arcade Maze Game which has been developed by Gremlin Industries. The player’s objective in the game is to achieve maximum points as possible by collecting food or fruits. The player loses once the snake hits the wall or hits itself.
+<pr>This repository contains my solutions to LeetCode problems, implemented in Java. I've organized the solutions based on their difficulty levels: Easy, Medium, and Hard. Feel free to explore and learn from them. I will be updating this everyday, if possible !<br>
 
-## Dependencies
+<pr> <h2> Categories </h2> <br>
+<pr>The solutions are categorized into the following sections:<br>
 
-In order to run this script, You just need the following 3 modules -
+<pr>**Easy**<br>
 
-- **Pygame:** It is a set of Python modules designed for writing video games.
-- **Time:** This function is used to count the number of seconds elapsed since the epoch.
-- **Random:** This function is used to generate random numbers in Python by using random module. 
+<pr>**Medium**<br>
 
-## How To Play?
+<pr>**Hard**<br>
 
-- The snake is represented by a black rectangle on the game screen.
-- The objective of the game is to eat the green food that appears randomly on the screen.
-- By eating the food, the snake grows longer.
-- The game ends if the snake hits the boundaries of the game screen or if it collides with its own body.
-- The player's score is displayed on the screen.
-- After losing, the player can press 'C' to play again or 'Q' to quit the game.
+<pr> <h2> Contributing </h2> <br>
+<pr>If you'd like to contribute to this repository, you can:<br>
 
-## How to Run the game?
+<pr>1. Add more solutions to existing problem categories.<br>
+<pr>2. Improve existing solutions by optimizing time and space complexity.<br>
+<pr>3. Provide alternative solutions or variations of existing problems.<br>
+ 
+<pr> <h2> Steps to contribute </h2> <br>
+<pr>To contribute, follow these steps:<br>
 
-- To run the game, execute the Python script `snake_game.py` using a Python interpreter.
+<pr>1. Fork the repository.<br>
+<pr>2. Create a new branch for your contribution.<br>
+<pr>3. Make your changes and commit them.<br>
+<pr>4. Push the changes to your fork.<br>
+<pr>5. Submit a pull request, describing the changes you've made.<br>
+<pr>Your contributions are greatly appreciated!<br>
 
-## Controls
+<pr> <h2> License </h2> <br>
+<pr>This repository is licensed under the MIT License.<br>
 
-- Use the arrow keys (UP, DOWN, LEFT, RIGHT) to control the snake's movement.
-- Press 'C' to play again after losing.
-- Press 'Q' to quit the game.
-
-## Notes 
-
-- Make sure to replace snake_game.py with the actual name of your Python file if it's different.
-
-## Output
-
-[![game.png](https://i.postimg.cc/R0548KNy/game.png)](https://postimg.cc/RWRkJ31L)
-
-## Author
-
-[Charvy Jain](https://github.com/CharvyJain)
+<pr> <h2> Get In Touch ‼️ </h2> <br>
+<pr>If you have any questions or suggestions, feel free to reach out on subhradipbodhak1493@gmail.com. And Happy coding! 😊<br>
